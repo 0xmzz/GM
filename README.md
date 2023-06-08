@@ -1,16 +1,46 @@
-This is a [Next.js](https://nextjs.org) + [wagmi](https://wagmi.sh) project bootstrapped with [`create-wagmi`](https://github.com/wagmi-dev/wagmi/tree/main/packages/create-wagmi)
+# GM Portfolio Manager
 
-# Getting Started
+GM Portfolio Manager is a decentralized application that allows users to aggregate their crypto portfolios, form investment groups for collective investing, and access a suite of portfolio management tools.
 
-Run `npm run dev` in your terminal, and then open [localhost:3000](http://localhost:3000) in your browser.
+## Features
 
-Once the webpage has loaded, changes made to files inside the `src/` directory (e.g. `src/pages/index.tsx`) will automatically update the webpage.
+- Wallet-based User Registration
+- Portfolio Aggregation
+- Portfolio Display settings
+- Group/Clan Formation for Collective Investing
+- Investor Profile Analytics
+- Portfolio Rebalancing monitor
+- Wallet Diversification monitor
+- Social Features (Adding Friends)
+- Escrow Services for group investments
+- NFT/ Membership Gating for selective visibility of wallets
 
-# Learn more
+## Development
 
-To learn more about [Next.js](https://nextjs.org) or [wagmi](https://wagmi.sh), check out the following resources:
+This project is in active development. Please see the issues and project boards for ongoing tasks and objectives.
 
-- [wagmi Documentation](https://wagmi.sh) – learn about wagmi Hooks and API.
-- [wagmi Examples](https://wagmi.sh/examples/connect-wallet) – a suite of simple examples using wagmi.
-- [Next.js Documentation](https://nextjs.org/docs) learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Setup
+
+Make sure to install the dependencies:
+
+```bash
+# yarn
+yarn install
+
+#Development Server
+
+yarn dev
+Production
+
+#Build the application for production:
+
+
+yarn build
+
+#Locally preview the production build:
+yarn start
+
+#License
+
+This project is licensed under the MIT License.
+```
